@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generate Label</title>
+  <link rel="stylesheet" href="label.css">
+</head>
+<body>
+  <div class="form-container">
+    <h1>Generate Label</h1>
+    <form action="final.html" method="GET">
+      <div class="form-group">
+        <label for="itemName">Item Name</label>
+        <select id="itemName" name="itemName">
+          <option>Select Item</option>
+          <option>T Shirts</option>
+          <option>Joggers</option>
+          <option>Lower</option>
+          <option>Top</option>
+          <option>hoddie</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="skuId">SKU ID</label>
+        <input type="text" id="sku" name="sku"  placeholder="Enter SKU"/>
+      </div>
+
+      <div class="form-group">
+        <label for="quantity">No. Of Labels</label>
+        <input type="number" id="quantity" name="quantity" placeholder="Enter Quantity" />
+      </div>
+
+      <div class="form-group">
+        <label for="headerText">Header Text</label>
+        <select id="headerText" name="headerText">
+          <option>Select Header</option>
+          <option>huhu</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="size">Size</label>
+        <select id="size" name="size">
+          <option>XS</option>
+          <option>S</option>
+          <option>M</option>
+          <option>L</option>
+          <option>XL</option>
+          <option>XXL</option>
+          
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="gender">Gender</label>
+        <select id="gender" name="gender">
+          <option>Male</option>
+          <option>Female</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="color">Color</label>
+        <select id="color" name="color">
+          <option>Black</option>
+          <option>White</option>
+          <option>Red</option>
+          <option>Brown</option>
+          <option>Grey</option>
+          <option>Beige</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="mrp">MRP</label>
+        <input type="number" id="mrp" name="mrp" placeholder="Enter Price" />
+      </div>
+
+      <div class="form-group">
+        <label for="material">Material</label>
+        <select id="material" name="material">
+          <option>Cotton</option>
+          <option>acrylic</option>
+          <option>semi cotton</option>
+          <option>material X</option>
+          <option>material Y</option>
+        </select>
+      </div>
+
+      <button type="submit" class="generate-btn">Generate Now</button>
+    </form>
+  </div>
+</body>
+</html>
